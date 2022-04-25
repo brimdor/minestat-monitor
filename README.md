@@ -18,5 +18,5 @@ Before the app can function, you will need to do the following:
 ----------
 
 Docker Sample Command:
-`docker run -dit --name call it what you want -e server_url='x.x.x.x' -e server_port='25565' -e duration='5' -e ping_role='role-name' -e webhook_url='webhook-url' -v host/log/location:/minestat-logs brimdor/minestat:latest`
+`docker run -dit --name call it what you want -e server_url='x.x.x.x' -e server_port='25565' -e duration='5' -e ping_init='yes' -e ping_role='role-name' -e discord_webhook='webhook-url' -v host/log/location:/minestat-logs brimdor/minestat:latest`
 
